@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C3443661BDD10C6A5EEA4D4 /* Pods_Dubbizle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268B4513E6346731A0984EFA /* Pods_Dubbizle.framework */; };
+		8FDDA96DCDF0943D88B5D6DB /* Pods_DubbizleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5699898E1003F0156510E6 /* Pods_DubbizleUITests.framework */; };
+		903A30231EF7B12200456FEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A30221EF7B12200456FEA /* AppDelegate.swift */; };
+		903A30251EF7B12200456FEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A30241EF7B12200456FEA /* ViewController.swift */; };
+		903A30281EF7B12200456FEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903A30261EF7B12200456FEA /* Main.storyboard */; };
+		903A302A1EF7B12200456FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903A30291EF7B12200456FEA /* Assets.xcassets */; };
+		903A302D1EF7B12200456FEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903A302B1EF7B12200456FEA /* LaunchScreen.storyboard */; };
+		903A30381EF7B12200456FEA /* DubbizleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A30371EF7B12200456FEA /* DubbizleTests.swift */; };
+		903A30431EF7B12200456FEA /* DubbizleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A30421EF7B12200456FEA /* DubbizleUITests.swift */; };
+		903A30541EF7BAED00456FEA /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A30531EF7BAED00456FEA /* MovieModel.swift */; };
+		903A305A1EF7F79E00456FEA /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A30591EF7F79E00456FEA /* CustomCell.swift */; };
+		903A305C1EFA6B1000456FEA /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 903A305B1EFA6B1000456FEA /* placeholder.png */; };
+		903A305E1EFA704A00456FEA /* ImageCacheLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A305D1EFA704A00456FEA /* ImageCacheLoader.swift */; };
+		903A30601EFA75B800456FEA /* LoadMoreActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A305F1EFA75B800456FEA /* LoadMoreActivityIndicator.swift */; };
+		903A30621EFA81DB00456FEA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903A30611EFA81DB00456FEA /* DetailViewController.swift */; };
+		90F097161EFA93260070A4E6 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F097151EFA93260070A4E6 /* FilterViewController.swift */; };
+		90F0971A1EFBCE9A0070A4E6 /* CircleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F097191EFBCE9A0070A4E6 /* CircleChartView.swift */; };
+		E50046135981AC2CCB6AC76C /* Pods_DubbizleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BBEA9A902781B2D3816547 /* Pods_DubbizleTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		903A30341EF7B12200456FEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 903A30171EF7B12200456FEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 903A301E1EF7B12200456FEA;
+			remoteInfo = Dubbizle;
+		};
+		903A303F1EF7B12200456FEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 903A30171EF7B12200456FEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 903A301E1EF7B12200456FEA;
+			remoteInfo = Dubbizle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		102AF8A29B10424510DCEB60 /* Pods-DubbizleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DubbizleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DubbizleUITests/Pods-DubbizleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		259A24441E9BE168613B4BB5 /* Pods-DubbizleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DubbizleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DubbizleUITests/Pods-DubbizleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		268B4513E6346731A0984EFA /* Pods_Dubbizle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dubbizle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE5306B608F5433C9FECB18 /* Pods-Dubbizle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dubbizle.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dubbizle/Pods-Dubbizle.release.xcconfig"; sourceTree = "<group>"; };
+		56BBEA9A902781B2D3816547 /* Pods_DubbizleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DubbizleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D38D50F44F8AAF5ECB4E9EF /* Pods-DubbizleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DubbizleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DubbizleTests/Pods-DubbizleTests.release.xcconfig"; sourceTree = "<group>"; };
+		903A301F1EF7B12200456FEA /* Dubbizle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dubbizle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		903A30221EF7B12200456FEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		903A30241EF7B12200456FEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		903A30271EF7B12200456FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		903A30291EF7B12200456FEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		903A302C1EF7B12200456FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		903A302E1EF7B12200456FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		903A30331EF7B12200456FEA /* DubbizleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DubbizleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		903A30371EF7B12200456FEA /* DubbizleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DubbizleTests.swift; sourceTree = "<group>"; };
+		903A30391EF7B12200456FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		903A303E1EF7B12200456FEA /* DubbizleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DubbizleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		903A30421EF7B12200456FEA /* DubbizleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DubbizleUITests.swift; sourceTree = "<group>"; };
+		903A30441EF7B12200456FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		903A30531EF7BAED00456FEA /* MovieModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		903A30591EF7F79E00456FEA /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		903A305B1EFA6B1000456FEA /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		903A305D1EFA704A00456FEA /* ImageCacheLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCacheLoader.swift; sourceTree = "<group>"; };
+		903A305F1EFA75B800456FEA /* LoadMoreActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadMoreActivityIndicator.swift; sourceTree = "<group>"; };
+		903A30611EFA81DB00456FEA /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		90F097151EFA93260070A4E6 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		90F097191EFBCE9A0070A4E6 /* CircleChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleChartView.swift; sourceTree = "<group>"; };
+		B08E6DFDD6CE654EEE990641 /* Pods-Dubbizle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dubbizle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dubbizle/Pods-Dubbizle.debug.xcconfig"; sourceTree = "<group>"; };
+		B9904007B04370C0D4170BCB /* Pods-DubbizleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DubbizleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DubbizleTests/Pods-DubbizleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC5699898E1003F0156510E6 /* Pods_DubbizleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DubbizleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		903A301C1EF7B12200456FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C3443661BDD10C6A5EEA4D4 /* Pods_Dubbizle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903A30301EF7B12200456FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E50046135981AC2CCB6AC76C /* Pods_DubbizleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903A303B1EF7B12200456FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FDDA96DCDF0943D88B5D6DB /* Pods_DubbizleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20E6A83D68CDB72CE928F05B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				268B4513E6346731A0984EFA /* Pods_Dubbizle.framework */,
+				56BBEA9A902781B2D3816547 /* Pods_DubbizleTests.framework */,
+				DC5699898E1003F0156510E6 /* Pods_DubbizleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42B979377612326EA030A284 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B08E6DFDD6CE654EEE990641 /* Pods-Dubbizle.debug.xcconfig */,
+				3EE5306B608F5433C9FECB18 /* Pods-Dubbizle.release.xcconfig */,
+				B9904007B04370C0D4170BCB /* Pods-DubbizleTests.debug.xcconfig */,
+				5D38D50F44F8AAF5ECB4E9EF /* Pods-DubbizleTests.release.xcconfig */,
+				259A24441E9BE168613B4BB5 /* Pods-DubbizleUITests.debug.xcconfig */,
+				102AF8A29B10424510DCEB60 /* Pods-DubbizleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		903A30161EF7B12200456FEA = {
+			isa = PBXGroup;
+			children = (
+				903A30211EF7B12200456FEA /* Dubbizle */,
+				903A30361EF7B12200456FEA /* DubbizleTests */,
+				903A30411EF7B12200456FEA /* DubbizleUITests */,
+				903A30201EF7B12200456FEA /* Products */,
+				42B979377612326EA030A284 /* Pods */,
+				20E6A83D68CDB72CE928F05B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		903A30201EF7B12200456FEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				903A301F1EF7B12200456FEA /* Dubbizle.app */,
+				903A30331EF7B12200456FEA /* DubbizleTests.xctest */,
+				903A303E1EF7B12200456FEA /* DubbizleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		903A30211EF7B12200456FEA /* Dubbizle */ = {
+			isa = PBXGroup;
+			children = (
+				903A305B1EFA6B1000456FEA /* placeholder.png */,
+				903A30221EF7B12200456FEA /* AppDelegate.swift */,
+				903A30241EF7B12200456FEA /* ViewController.swift */,
+				903A30611EFA81DB00456FEA /* DetailViewController.swift */,
+				90F097151EFA93260070A4E6 /* FilterViewController.swift */,
+				903A30261EF7B12200456FEA /* Main.storyboard */,
+				903A30291EF7B12200456FEA /* Assets.xcassets */,
+				903A302B1EF7B12200456FEA /* LaunchScreen.storyboard */,
+				903A302E1EF7B12200456FEA /* Info.plist */,
+				903A30531EF7BAED00456FEA /* MovieModel.swift */,
+				903A30591EF7F79E00456FEA /* CustomCell.swift */,
+				903A305D1EFA704A00456FEA /* ImageCacheLoader.swift */,
+				903A305F1EFA75B800456FEA /* LoadMoreActivityIndicator.swift */,
+				90F097191EFBCE9A0070A4E6 /* CircleChartView.swift */,
+			);
+			path = Dubbizle;
+			sourceTree = "<group>";
+		};
+		903A30361EF7B12200456FEA /* DubbizleTests */ = {
+			isa = PBXGroup;
+			children = (
+				903A30371EF7B12200456FEA /* DubbizleTests.swift */,
+				903A30391EF7B12200456FEA /* Info.plist */,
+			);
+			path = DubbizleTests;
+			sourceTree = "<group>";
+		};
+		903A30411EF7B12200456FEA /* DubbizleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				903A30421EF7B12200456FEA /* DubbizleUITests.swift */,
+				903A30441EF7B12200456FEA /* Info.plist */,
+			);
+			path = DubbizleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		903A301E1EF7B12200456FEA /* Dubbizle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903A30471EF7B12200456FEA /* Build configuration list for PBXNativeTarget "Dubbizle" */;
+			buildPhases = (
+				B065CF7C2487AB5C44D3105F /* [CP] Check Pods Manifest.lock */,
+				903A301B1EF7B12200456FEA /* Sources */,
+				903A301C1EF7B12200456FEA /* Frameworks */,
+				903A301D1EF7B12200456FEA /* Resources */,
+				A487DAFD91CA6584407CC8F1 /* [CP] Embed Pods Frameworks */,
+				865E47FF085533E86092F565 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dubbizle;
+			productName = Dubbizle;
+			productReference = 903A301F1EF7B12200456FEA /* Dubbizle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		903A30321EF7B12200456FEA /* DubbizleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903A304A1EF7B12200456FEA /* Build configuration list for PBXNativeTarget "DubbizleTests" */;
+			buildPhases = (
+				B0A149E8BF497F2EADE811D0 /* [CP] Check Pods Manifest.lock */,
+				903A302F1EF7B12200456FEA /* Sources */,
+				903A30301EF7B12200456FEA /* Frameworks */,
+				903A30311EF7B12200456FEA /* Resources */,
+				2FCB68DA96E6C04D32C717EC /* [CP] Embed Pods Frameworks */,
+				76BED56AFD7C9060C8F089FC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				903A30351EF7B12200456FEA /* PBXTargetDependency */,
+			);
+			name = DubbizleTests;
+			productName = DubbizleTests;
+			productReference = 903A30331EF7B12200456FEA /* DubbizleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		903A303D1EF7B12200456FEA /* DubbizleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903A304D1EF7B12200456FEA /* Build configuration list for PBXNativeTarget "DubbizleUITests" */;
+			buildPhases = (
+				FAC01F343537DEBA498C6D32 /* [CP] Check Pods Manifest.lock */,
+				903A303A1EF7B12200456FEA /* Sources */,
+				903A303B1EF7B12200456FEA /* Frameworks */,
+				903A303C1EF7B12200456FEA /* Resources */,
+				98E61860E73D178112A5A096 /* [CP] Embed Pods Frameworks */,
+				7F565530CCD0C64743DAA059 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				903A30401EF7B12200456FEA /* PBXTargetDependency */,
+			);
+			name = DubbizleUITests;
+			productName = DubbizleUITests;
+			productReference = 903A303E1EF7B12200456FEA /* DubbizleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		903A30171EF7B12200456FEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Hiren Bhadreshwara";
+				TargetAttributes = {
+					903A301E1EF7B12200456FEA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					903A30321EF7B12200456FEA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 903A301E1EF7B12200456FEA;
+					};
+					903A303D1EF7B12200456FEA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 903A301E1EF7B12200456FEA;
+					};
+				};
+			};
+			buildConfigurationList = 903A301A1EF7B12200456FEA /* Build configuration list for PBXProject "Dubbizle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 903A30161EF7B12200456FEA;
+			productRefGroup = 903A30201EF7B12200456FEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				903A301E1EF7B12200456FEA /* Dubbizle */,
+				903A30321EF7B12200456FEA /* DubbizleTests */,
+				903A303D1EF7B12200456FEA /* DubbizleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		903A301D1EF7B12200456FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903A302D1EF7B12200456FEA /* LaunchScreen.storyboard in Resources */,
+				903A305C1EFA6B1000456FEA /* placeholder.png in Resources */,
+				903A302A1EF7B12200456FEA /* Assets.xcassets in Resources */,
+				903A30281EF7B12200456FEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903A30311EF7B12200456FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903A303C1EF7B12200456FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FCB68DA96E6C04D32C717EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DubbizleTests/Pods-DubbizleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76BED56AFD7C9060C8F089FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DubbizleTests/Pods-DubbizleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F565530CCD0C64743DAA059 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DubbizleUITests/Pods-DubbizleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		865E47FF085533E86092F565 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dubbizle/Pods-Dubbizle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98E61860E73D178112A5A096 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DubbizleUITests/Pods-DubbizleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A487DAFD91CA6584407CC8F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dubbizle/Pods-Dubbizle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B065CF7C2487AB5C44D3105F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B0A149E8BF497F2EADE811D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FAC01F343537DEBA498C6D32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		903A301B1EF7B12200456FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903A30541EF7BAED00456FEA /* MovieModel.swift in Sources */,
+				903A30601EFA75B800456FEA /* LoadMoreActivityIndicator.swift in Sources */,
+				90F0971A1EFBCE9A0070A4E6 /* CircleChartView.swift in Sources */,
+				90F097161EFA93260070A4E6 /* FilterViewController.swift in Sources */,
+				903A30251EF7B12200456FEA /* ViewController.swift in Sources */,
+				903A305E1EFA704A00456FEA /* ImageCacheLoader.swift in Sources */,
+				903A305A1EF7F79E00456FEA /* CustomCell.swift in Sources */,
+				903A30231EF7B12200456FEA /* AppDelegate.swift in Sources */,
+				903A30621EFA81DB00456FEA /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903A302F1EF7B12200456FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903A30381EF7B12200456FEA /* DubbizleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903A303A1EF7B12200456FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903A30431EF7B12200456FEA /* DubbizleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		903A30351EF7B12200456FEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 903A301E1EF7B12200456FEA /* Dubbizle */;
+			targetProxy = 903A30341EF7B12200456FEA /* PBXContainerItemProxy */;
+		};
+		903A30401EF7B12200456FEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 903A301E1EF7B12200456FEA /* Dubbizle */;
+			targetProxy = 903A303F1EF7B12200456FEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		903A30261EF7B12200456FEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				903A30271EF7B12200456FEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		903A302B1EF7B12200456FEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				903A302C1EF7B12200456FEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		903A30451EF7B12200456FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		903A30461EF7B12200456FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		903A30481EF7B12200456FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B08E6DFDD6CE654EEE990641 /* Pods-Dubbizle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dubbizle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myxcorp.Dubbizle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		903A30491EF7B12200456FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EE5306B608F5433C9FECB18 /* Pods-Dubbizle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dubbizle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myxcorp.Dubbizle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		903A304B1EF7B12200456FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9904007B04370C0D4170BCB /* Pods-DubbizleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DubbizleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myxcorp.DubbizleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dubbizle.app/Dubbizle";
+			};
+			name = Debug;
+		};
+		903A304C1EF7B12200456FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D38D50F44F8AAF5ECB4E9EF /* Pods-DubbizleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DubbizleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myxcorp.DubbizleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dubbizle.app/Dubbizle";
+			};
+			name = Release;
+		};
+		903A304E1EF7B12200456FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 259A24441E9BE168613B4BB5 /* Pods-DubbizleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DubbizleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myxcorp.DubbizleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dubbizle;
+			};
+			name = Debug;
+		};
+		903A304F1EF7B12200456FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 102AF8A29B10424510DCEB60 /* Pods-DubbizleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DubbizleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myxcorp.DubbizleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dubbizle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		903A301A1EF7B12200456FEA /* Build configuration list for PBXProject "Dubbizle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903A30451EF7B12200456FEA /* Debug */,
+				903A30461EF7B12200456FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903A30471EF7B12200456FEA /* Build configuration list for PBXNativeTarget "Dubbizle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903A30481EF7B12200456FEA /* Debug */,
+				903A30491EF7B12200456FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903A304A1EF7B12200456FEA /* Build configuration list for PBXNativeTarget "DubbizleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903A304B1EF7B12200456FEA /* Debug */,
+				903A304C1EF7B12200456FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903A304D1EF7B12200456FEA /* Build configuration list for PBXNativeTarget "DubbizleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903A304E1EF7B12200456FEA /* Debug */,
+				903A304F1EF7B12200456FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 903A30171EF7B12200456FEA /* Project object */;
+}

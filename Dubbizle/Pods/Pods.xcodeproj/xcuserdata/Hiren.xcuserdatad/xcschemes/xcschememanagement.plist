@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-Dubbizle.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-DubbizleTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-DubbizleUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftRangeSlider.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>84E55659CD5D3245353AD8275526FCA3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>99515C4969B1B45BC55D155E983A0D60</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0413BAFD77B9F1538DAD364C57739D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D00A3D2068D3E08B4F2B6ED725D29422</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

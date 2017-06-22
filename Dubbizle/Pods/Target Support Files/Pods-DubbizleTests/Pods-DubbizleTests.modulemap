@@ -1,0 +1,6 @@
+framework module Pods_DubbizleTests {
+  umbrella header "Pods-DubbizleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
